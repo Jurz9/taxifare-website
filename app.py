@@ -1,7 +1,9 @@
 import streamlit as st
 import requests
 import datetime
-
+from streamlit_folium import st_folium
+from geopy.geocoders import Nominatim
+import folium
 '''
 # TaxiFareModel front
 '''

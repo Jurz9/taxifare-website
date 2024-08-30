@@ -64,7 +64,6 @@ dropoff_longitude = st.number_input("Dropoff Longitude", value=-73.985428, forma
 dropoff_latitude = st.number_input("Dropoff Latitude", value=40.748817, format="%.6f")
 passenger_count = st.number_input("Passenger Count", min_value=1, max_value=8, value=1)
 
-#Create a dictionary for the API request
 params = {
     "pickup_datetime": pickup_datetime,
     "pickup_longitude": pickup_longitude,
